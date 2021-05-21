@@ -1,0 +1,15 @@
+@import "status.css";
+@import "first-screen.css";
+@import "second-screen.css";
+* {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  font-family: "Nunito", sans-serif;
+  background-color: #f7f7f7;
+}

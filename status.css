@@ -1,0 +1,7 @@
+.status {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  margin-bottom: 25px;
+  opacity: 0.8;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en kr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = "screen">
+        <div class = "screen-first screen-white">
+            <div class = "status">
+                <i class="fas fa-arrow-left fa-xs"></i>
+                <i class="fas fa-search fa-xs"></i>
+            </div>
+            <div class = "mainphoto">
+                <img src="mainphoto.PNG" width="60px" height="60px" style="border-radius: 50%; box-shadow: 0px 10px 10px rgb(207, 205, 205);"/> 
+            </div>
+            <div class="singer-info">
+                <span class = "bold name">10CM, Kwon Jung-yeol</span>
+                <span class = "genre fade">R&B, Acoustic-pop</span>
+            </div>
+            <div class = "two-button">
+                <span class="shuffle">Shuffle</span>
+                <div class="heart">
+                    <i class="fas fa-heart fa-xs"></i>
+                    <span class="like-num">212 971</span>
+                </div>
+            </div>
+            <ul id="music-box">
+                <li class= "music">
+                    <img src="spring.PNG" width="30px" height="30px" style="border-radius: 5px;"/>
+                    <div class="music-info">
+                        <span class="fade music-first">10CM</span>
+                        <span class="music-title">봄이 좋냐??</span>
+                    </div>
+                    <i class="fas fa-ellipsis-v fa-xs music-info-icon"></i>
+                </li>
+                <li class="music"> 
+                    <div class= "second">
+                        <i class="fas fa-music"></i>
+                        <img class = "seoul" src="seoul.PNG" width="30px" height="30px" style="border-radius: 5px;"/>   
+                    </div>
+                    <div class="music-info">
+                        <span class="fade music-first">10CM</span>
+                        <span class="music-title long-title">서울의 잠 못 이루는 밤</span>
+                    </div>
+                    <i class="fas fa-ellipsis-v fa-xs music-info-icon long-title-icon"></i>
+                </li>
+                <li class="music">
+                    <img src="mattress.PNG" width="30px" height="30px" style="border-radius: 5px;"/>
+                    <div class="music-info">
+                        <span class="fade music-first">10CM</span>
+                        <span class="music-title">매트리스</span>
+                    </div>
+                    <i class="fas fa-ellipsis-v fa-xs music-info-icon"></i>
+                </li>
+                <li class="music">
+                    <img src="pet.PNG" width="30px" height="30px" style="border-radius: 5px;"/>
+                    <div class="music-info">
+                        <span class="fade music-first">10CM</span>
+                        <span class="music-title">pet</span>
+                    </div>
+                    <i class="fas fa-ellipsis-v fa-xs music-info-icon"></i>
+                </li>
+            </ul>
+            <div class="playbox">
+                <div class = "playbox-music">
+                    <span class = "playbox-singer">10CM</span>
+                    <span class = "playbox-now-music">서울의 잠 못 이루는 밤</span>
+                </div>
+                <div class = "playbox-icon">
+                    <i class="fas fa-step-backward fa-xs"></i>
+                    <i class="fas fa-pause"></i>
+                    <i class="fas fa-step-forward fa-xs"></i>
+                </div>
+            </div>
+        </div>
+        <div class = "screen-second screen-white">
+            <div class = "status">
+                <i class="fas fa-arrow-left fa-xs"></i>
+                <i class="fas fa-ellipsis-v fa-xs"></i>
+            </div>
+            <div class = "music-photo">
+                <img src="seoul.PNG" width="164px" height ="164px"  style="border-radius: 20px; box-shadow: 0px 10px 10px rgb(207, 205, 205);">
+            </div>
+            <div class = "music-now-info">
+                <span class="bold name">서울의 잠 못 이루는 밤</span>
+                <span class="fade">10CM</span>
+            </div>
+            <div class ="music-time">
+                <span class = "time-fade">2:23</span>
+                <span class = "time-fade">4:17</span>
+            </div>
+            <div class ="music-bar">
+                <div class = "full-bar"></div>
+                <div class = "now-bar"></div>
+            </div>
+            <div class ="icon-box">
+                <i class="fas fa-sync icon-fade"></i>
+                <i class="fas fa-step-backward"></i>
+                <i class="fas fa-play-circle fa-2x"></i>
+                <i class="fas fa-step-forward fa-xs"></i>
+                <i class="fas fa-random icon-fade"></i>
+            </div>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/b263a1e1e9.js" crossorigin="anonymous"></script>
+</body>
+</html>

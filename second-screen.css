@@ -1,0 +1,51 @@
+.music-photo {
+  margin-top: 60px;
+  text-align: center;
+}
+
+.music-now-info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.music-now-info span:first-child {
+  margin-top: 30px;
+}
+.music-time {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 20px;
+  margin-top: 20px;
+  margin-bottom: 4px;
+  font-size: xx-small;
+  opacity: 0.3;
+}
+.music-bar {
+  position: relative;
+  margin: 0px 15px;
+}
+.full-bar {
+  position: absolute;
+  width: 200px;
+  height: 2px;
+  background-color: #222222;
+  opacity: 0.1;
+}
+
+.now-bar {
+  position: absolute;
+  width: 110px;
+  height: 2px;
+  background-color: #222222;
+}
+
+.icon-box {
+  display: flex;
+  margin: 40px 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon-fade {
+  opacity: 0.2;
+}
